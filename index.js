@@ -22,7 +22,7 @@ app.get('/hello',(req,res)=>{
     
 })
 
-
+//commiting on A21
 const listRoute= require('./routers/List')
 
 app.use('/list',listRoute)
