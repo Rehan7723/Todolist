@@ -1,7 +1,10 @@
 const mongoose=require ('mongoose')
 
 const TodoSchema=mongoose.Schema({
-    id: Number,
+    name:{
+        type: String,
+        required: true
+    },
     event: String,
 })
 

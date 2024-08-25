@@ -34,5 +34,5 @@ app.use('/list',listRoute)
 
 const port=8000
 app.listen(port,()=>{
-    console.log("App listening to 4000 port");
+    console.log("App listening to 8000 port");
 })
