@@ -16,6 +16,7 @@ exports.createList= async(req,res)=>{
     }
 }
 
+//ok
 
 exports.getList= async(req,res)=>{
     try {
